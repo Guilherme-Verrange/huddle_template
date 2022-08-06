@@ -1,0 +1,135 @@
+@import 'variables';
+@import 'responsive';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-size: 18px;
+}
+
+
+
+main{
+
+
+    height: auto;
+    width: 100%;
+    background-color: $Very-Pale-Cyan;
+    background-image: url(/img/bg-hero-desktop.svg);
+    
+
+header{
+
+    width: 100%;
+    background-color: transparent;
+    height: 50px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+
+        max-width: 8.5rem;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    button{
+
+        padding: 7px 50px;
+        border: none;
+        border-radius: 20px;
+        background-color: $white;
+        color: $Very-Dark-Cyan;
+        font-family: $poppins;
+        font-weight: 600;
+        box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.150);
+        cursor: pointer;
+    }
+
+}
+
+section{
+
+    display: flex;
+    height: auto;
+    justify-content: center;
+
+    .container{
+
+        background-color: $Very-Pale-Cyan;
+        padding: 0 30px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+
+        .about{
+            
+            font-family: $open-sans;
+            padding: 0 20px;
+
+            h1{
+
+                margin-bottom: 30px;
+                font-size: 2.20rem;
+                font-weight: 700;
+            }
+
+            p{
+
+                font-size: 1.0rem;
+                font-weight: 400;
+
+            }
+
+            button{
+
+                background-color: $Pink;
+                color: $white;
+                font-weight: 700;
+                border-radius: 20px;
+                border: none;
+                padding: 15px 60px;
+                margin-top: 30px;
+                white-space: nowrap;
+                cursor: pointer;
+
+                &:hover{
+
+                    background-color: hsl(322, 89%, 74%);
+                }
+
+            }
+
+        }
+
+        .about-img{
+            
+            width: 100%;
+            padding: 0 20px;
+
+            img{
+                
+               max-width:min-content;
+               width: 105%;
+
+            }
+
+        }
+    }
+
+
+}
+
+}
+

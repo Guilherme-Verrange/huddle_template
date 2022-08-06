@@ -1,0 +1,50 @@
+@media only screen and (max-width: 992px) {
+
+
+
+    .container{
+
+        flex-direction: column;
+        background-image: url(/img/bg-hero-mobile.svg);
+        object-fit: cover;
+        background-repeat: no-repeat;
+        
+
+        .about{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+
+
+        .about-img{
+
+            margin: 50px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+          
+        }
+        
+    }
+    
+
+
+}
+
+@media only screen and (max-width: 450px) {
+    .header{
+
+        padding: 50px 10px;
+    }
+
+    .btn-try {
+      padding: 5px 15px;
+    }
+  }

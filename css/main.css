@@ -1,0 +1,124 @@
+@media only screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    background-image: url(/img/bg-hero-mobile.svg);
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-repeat: no-repeat;
+  }
+  .container .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .container .about-img {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .header {
+    padding: 50px 10px;
+  }
+  .btn-try {
+    padding: 5px 15px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+}
+
+main {
+  height: auto;
+  width: 100%;
+  background-color: hsl(193deg, 100%, 96%);
+  background-image: url(/img/bg-hero-desktop.svg);
+}
+main header {
+  width: 100%;
+  background-color: transparent;
+  height: 50px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main header img {
+  max-width: 8.5rem;
+  height: 25px;
+  cursor: pointer;
+}
+main header button {
+  padding: 7px 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(192deg, 100%, 9%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+main section {
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+main section .container {
+  background-color: hsl(193deg, 100%, 96%);
+  padding: 0 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+main section .container .about {
+  font-family: "Open Sans", sans-serif;
+  padding: 0 20px;
+}
+main section .container .about h1 {
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+main section .container .about p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+main section .container .about button {
+  background-color: hsl(322deg, 100%, 66%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  border-radius: 20px;
+  border: none;
+  padding: 15px 60px;
+  margin-top: 30px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+main section .container .about button:hover {
+  background-color: hsl(322deg, 89%, 74%);
+}
+main section .container .about-img {
+  width: 100%;
+  padding: 0 20px;
+}
+main section .container .about-img img {
+  max-width: -webkit-min-content;
+  max-width: -moz-min-content;
+  max-width: min-content;
+  width: 105%;
+}/*# sourceMappingURL=main.css.map */
