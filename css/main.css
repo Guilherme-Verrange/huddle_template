@@ -29,6 +29,9 @@
   .section-card {
     padding: 0 20px !important;
   }
+  .section-card .reverse {
+    flex-direction: column-reverse !important;
+  }
   .section-card .card {
     display: flex;
     flex-direction: column-reverse;
@@ -154,6 +157,10 @@ main .section .container .about-img img {
   justify-content: center;
   align-items: center;
   padding: 0 50px;
+}
+.section-card .reverse {
+  display: flex;
+  flex-direction: row-reverse;
 }
 .section-card .card {
   display: flex;

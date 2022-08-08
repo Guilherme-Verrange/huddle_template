@@ -42,6 +42,12 @@
 
         padding: 0 20px !important;
 
+
+    .reverse{
+        
+        flex-direction: column-reverse !important;
+    }
+
     .card {
 
         display: flex;
@@ -62,9 +68,6 @@
     }
 
 }
-
-
-    
 }
 
 @media only screen and (max-width: 450px) {

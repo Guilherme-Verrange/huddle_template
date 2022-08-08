@@ -145,6 +145,14 @@ main {
     align-items: center;
     padding: 0 50px;
 
+
+
+    .reverse{
+
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
     .card {
 
         display: flex;
@@ -179,8 +187,6 @@ main {
                 font-size: 0.95rem;
                 
             }
-
-
         }
 
         .card-img{
