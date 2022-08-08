@@ -1,6 +1,5 @@
 @media only screen and (max-width: 992px) {
 
-    
 
     .container{
 
@@ -39,6 +38,10 @@
         }
     }
 
+    .section-card{
+
+        padding: 0 20px !important;
+
     .card {
 
         display: flex;
@@ -58,10 +61,10 @@
         }
     }
 
+}
+
 
     
-
-
 }
 
 @media only screen and (max-width: 450px) {
