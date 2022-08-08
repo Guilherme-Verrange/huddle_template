@@ -1,10 +1,11 @@
 @media only screen and (max-width: 992px) {
 
-
+    
 
     .container{
 
         flex-direction: column;
+        position: absolute;
         background-image: url(/img/bg-hero-mobile.svg);
         object-fit: cover;
         background-repeat: no-repeat;
@@ -21,15 +22,13 @@
         }
 
 
-
         .about-img{
 
             margin: 50px 0;
             display: flex;
             justify-content: center;
             align-items: center;
-        
-          
+    
         }
         
     }

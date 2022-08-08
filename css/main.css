@@ -1,6 +1,7 @@
 @media only screen and (max-width: 992px) {
   .container {
     flex-direction: column;
+    position: absolute;
     background-image: url(/img/bg-hero-mobile.svg);
     -o-object-fit: cover;
        object-fit: cover;
@@ -40,7 +41,7 @@ body {
 }
 
 main {
-  height: auto;
+  height: 100vh;
   width: 100%;
   background-color: hsl(193deg, 100%, 96%);
   background-image: url(/img/bg-hero-desktop.svg);
@@ -70,35 +71,34 @@ main header button {
   box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-main section {
+main .section {
   display: flex;
   height: auto;
   justify-content: center;
 }
-main section .container {
+main .section .container {
   background-color: hsl(193deg, 100%, 96%);
   padding: 0 30px;
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
 }
-main section .container .about {
+main .section .container .about {
   font-family: "Open Sans", sans-serif;
   padding: 0 20px;
+  width: 65%;
 }
-main section .container .about h1 {
+main .section .container .about h1 {
   margin-bottom: 30px;
   font-size: 2.2rem;
   font-weight: 700;
 }
-main section .container .about p {
+main .section .container .about p {
   font-size: 1rem;
   font-weight: 400;
 }
-main section .container .about button {
+main .section .container .about button {
   background-color: hsl(322deg, 100%, 66%);
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
@@ -109,16 +109,36 @@ main section .container .about button {
   white-space: nowrap;
   cursor: pointer;
 }
-main section .container .about button:hover {
+main .section .container .about button:hover {
   background-color: hsl(322deg, 89%, 74%);
 }
-main section .container .about-img {
-  width: 100%;
+main .section .container .about-img {
   padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-main section .container .about-img img {
+main .section .container .about-img img {
+  z-index: 2;
   max-width: -webkit-min-content;
   max-width: -moz-min-content;
   max-width: min-content;
-  width: 105%;
+  width: 100%;
+}
+
+.teste {
+  background-color: red;
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.teste .card {
+  margin: 50px 0;
+  width: 90%;
+  height: 350px;
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */
