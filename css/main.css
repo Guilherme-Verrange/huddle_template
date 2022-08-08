@@ -56,7 +56,15 @@
     align-items: flex-start !important;
     padding: 0 !important;
   }
-  footer .items-2 {
+  footer .item-2 {
+    gap: 30px;
+    padding-left: 20px;
+  }
+  footer .item-3 {
+    gap: 30px;
+    padding-left: 20px;
+  }
+  footer .item-4 {
     width: 100%;
     gap: 50px;
   }
@@ -301,21 +309,35 @@ footer .items-footer a:hover {
   color: hsl(322deg, 100%, 66%);
   transition: 0.2s;
 }
-footer .items-footer .items-1 {
+footer .items-footer .item {
   margin-left: 10px;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-footer .items-footer .items-1 .location {
+footer .items-footer .item .location {
   display: flex;
   align-items: center;
 }
-footer .items-footer .items-1 img {
+footer .items-footer .item img {
   align-items: center;
   margin: -10px 20px;
 }
-footer .items-footer .items-2 {
+footer .items-footer .item-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .items-footer .item-3 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .items-footer .item-4 {
   display: flex;
   height: 100%;
   flex-direction: column;
@@ -323,19 +345,19 @@ footer .items-footer .items-2 {
   align-content: center;
   align-items: center;
 }
-footer .items-footer .items-2 .icons {
+footer .items-footer .item-4 .icons {
   display: flex;
   justify-content: center;
   width: 100%;
   gap: 25px;
 }
-footer .items-footer .items-2 a {
+footer .items-footer .item-4 a {
   border: 1px solid white;
   padding: 10px 15px;
   border-radius: 50%;
   font-size: 1.1rem;
   text-align: center;
 }
-footer .items-footer .items-2 a:hover {
+footer .items-footer .item-4 a:hover {
   border-color: hsl(322deg, 100%, 66%);
 }/*# sourceMappingURL=main.css.map */
