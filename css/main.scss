@@ -345,7 +345,7 @@ footer {
             display: flex;
             flex-direction: column;
             height: 100%;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-evenly;
             
             
@@ -355,7 +355,7 @@ footer {
             display: flex;
             flex-direction: column;
             height: 100%;
-            align-items: center;
+            align-items: flex-start;
             justify-content: space-evenly;
         }
 
