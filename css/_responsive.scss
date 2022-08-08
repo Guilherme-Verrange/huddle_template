@@ -37,8 +37,28 @@
             }
     
         }
-        
     }
+
+    .card {
+
+        display: flex;
+        flex-direction: column-reverse;
+
+        .card-text{
+
+            width: 100% !important;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .card-img{
+
+            width: 100% !important;
+
+        }
+    }
+
+
     
 
 
