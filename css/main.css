@@ -1,6 +1,6 @@
 @media only screen and (max-width: 992px) {
   main {
-    margin-bottom: 750px;
+    margin-bottom: 700px;
   }
   .container {
     flex-direction: column;
@@ -122,12 +122,13 @@ main header button {
   color: hsl(192deg, 100%, 9%);
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   transition: 0.5s;
 }
 main header button:hover {
-  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.504);
+  transform: translateY(-3px);
+  box-shadow: 2px 5px 15px 1px rgba(41, 41, 41, 0.411);
   transition: 0.5s;
 }
 main .section {
@@ -139,6 +140,7 @@ main .section .container {
   background-color: hsl(193deg, 100%, 96%);
   padding: 0 30px;
   width: 100%;
+  height: 525px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,12 +170,15 @@ main .section .container .about button {
   white-space: nowrap;
   cursor: pointer;
   transition: 0.5s;
+  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.15);
 }
 main .section .container .about button:hover {
   transition: 0.5s;
   background-color: hsl(322deg, 89%, 74%);
+  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.2);
 }
 main .section .container .about-img {
+  background-color: hsl(193deg, 100%, 96%);
   padding: 0 20px;
   display: flex;
   justify-content: center;
@@ -181,9 +186,6 @@ main .section .container .about-img {
   align-content: center;
 }
 main .section .container .about-img img {
-  max-width: -webkit-min-content;
-  max-width: -moz-min-content;
-  max-width: min-content;
   width: 100%;
 }
 
@@ -206,7 +208,7 @@ main .section .container .about-img img {
   width: 100%;
   height: auto;
   background-color: hsl(0deg, 0%, 100%);
-  box-shadow: 2px 1px 15px -3px rgba(78, 77, 77, 0.431372549);
+  box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.15);
   justify-content: space-between;
   align-items: center;
   padding: 0 50px;
@@ -250,7 +252,7 @@ main .section .container .about-img img {
   width: 50%;
   height: 200px;
   background-color: hsl(0deg, 0%, 100%);
-  box-shadow: 2px 1px 15px -3px rgba(78, 77, 77, 0.431372549);
+  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -275,9 +277,11 @@ main .section .container .about-img img {
   box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   color: hsl(0deg, 0%, 100%);
+  transition: 0.5s;
 }
 .ready-card .card button:hover {
   transition: 0.5s;
+  box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.2);
   background-color: hsl(322deg, 89%, 74%);
 }
 
@@ -291,7 +295,7 @@ footer {
   align-items: center;
 }
 footer .items-footer {
-  margin-top: 50px;
+  margin-top: 100px;
   width: 100%;
   height: 250px;
   display: flex;

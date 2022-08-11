@@ -53,13 +53,14 @@ main {
             color: $Very-Dark-Cyan;
             font-family: $poppins;
             font-weight: 600;
-            box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.150);
+            box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.200);
             cursor: pointer;
             transition: 0.5s;
 
             &:hover{
 
-                box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.504);
+                transform: translateY(-3px);
+                box-shadow: 2px 5px 15px 1px rgba(41, 41, 41, 0.411);
                 transition: 0.5s;
 
             }
@@ -78,6 +79,7 @@ main {
             background-color: $Very-Pale-Cyan;
             padding: 0 30px;
             width: 100%;
+            height: 525px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -115,11 +117,14 @@ main {
                     white-space: nowrap;
                     cursor: pointer;
                     transition: 0.5s;
+                    box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.150);
 
                     &:hover {
 
                         transition: 0.5s;
                         background-color: hsl(322, 89%, 74%);
+                        box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.200);
+                        
                     }
 
                 }
@@ -128,7 +133,7 @@ main {
 
             .about-img {
 
-
+                background-color: $Very-Pale-Cyan;
                 padding: 0 20px;
                 display: flex;
                 justify-content: center;
@@ -137,7 +142,7 @@ main {
 
                 img {
 
-                    max-width: min-content;
+                    
                     width: 100%;
 
                 }
@@ -175,7 +180,7 @@ main {
         width: 100%;
         height: auto;
         background-color: $white;
-        box-shadow: 2px 1px 15px -3px #4e4d4d6e;
+        box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.150);
         justify-content: space-between;
         align-items: center;
         padding: 0 50px;
@@ -240,7 +245,7 @@ main {
         width: 50%;
         height: 200px;
         background-color: $white;
-        box-shadow: 2px 1px 15px -3px #4e4d4d6e;
+        box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.150);
         border-radius: 20px;
         display: flex;
         justify-content: center;
@@ -269,10 +274,12 @@ main {
             box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.150);
             cursor: pointer;
             color: $white;
+            transition: 0.5s;
 
             &:hover {
 
                 transition: 0.5s;
+                box-shadow: 2px 1px 15px 1px rgba(0, 0, 0, 0.200);
                 background-color: hsl(322, 89%, 74%);
             }
 
@@ -295,7 +302,7 @@ footer {
 
     .items-footer {
 
-        margin-top: 50px;
+        margin-top: 100px;
         width: 100%;
         height: 250px;
         display: flex;
